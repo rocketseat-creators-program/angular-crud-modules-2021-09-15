@@ -21,7 +21,6 @@ export class StudentEditComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.activatedRoute.snapshot.params.id;
-    console.log(this.id);
     this.searchStudent();
   }
 
@@ -31,7 +30,16 @@ export class StudentEditComponent implements OnInit {
   }
 
   private searchStudent() {
-    this.student = this.studentService.findById(this.id);
+    const student = this.studentService.findById(this.id);
+
+    /*
+      Mini hack para alterar a referência da váriavel student com a que esta na lista do service.
+      Motivo: Como a alteração estava fazendo referência ao que esta na lista, qualquer alteração no form
+      estava alterando os valores do aluno na lista. A ideia é que essas alterações só sejam feitas quando
+      clicar no botão 'Save'.
+    */
+    this.student = JSON.parse(JSON.stringify(student));
+
   }
 
 }
