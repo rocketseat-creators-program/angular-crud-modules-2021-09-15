@@ -26,8 +26,13 @@ Ao final da aula, teremos um WEB APP capaz de executar todas as operações de u
 - [Font Awesome](https://fontawesome.com/)
 
 ## Testando a aplicação
-
-- Para testar a aplicação, execute o seguinte comando no terminal dentro da pasta principal:
+- Clone o repositório para a sua máquina
+- Abra um terminal na pasta principal da aplicação
+- Instale todas as dependências da aplicação utilizando o seguinte comando:
+    ```
+    npm install
+    ```
+- Rode a aplicação executando o seguinte comando:
     ```
     npm start
     ```
