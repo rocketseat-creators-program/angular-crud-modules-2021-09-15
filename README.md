@@ -25,9 +25,13 @@ Ao final da aula, teremos um WEB APP capaz de executar todas as operações de u
 - [NG Bootstrap](https://ng-bootstrap.github.io/#/home)
 - [Font Awesome](https://fontawesome.com/)
 
-## Development server
+## Testando a aplicação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Para testar a aplicação, execute o seguinte comando no terminal dentro da pasta principal:
+    ```
+    npm start
+    ```
+- Abra o seu browser na seguinte URL: http://localhost:4200
 
 ## Comandos utilizados
 - ng new application-name --routing --skip-tests
