@@ -1,27 +1,34 @@
-# AngularCrudExpertsClub
+<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+# Utilizando as boas práticas de Módulo por Funcionalidade e criando seu primeiro CRUD com Angular.
+
+Nessa aula desenvolveremos um CRUD simples utilizando as boas práticas de Módulo por funcionalidade. Explicaremos também quais as vantagens de utilizar essa organização de módulos em nossa aplicação e como podemos criar todo o nosso projeto utilizando a CLI do Angular.
+
+Ao final da aula, teremos um WEB APP capaz de executar todas as operações de um CRUD.
+
+## Funcionalidades
+
+- Listar alunos
+- Deletar aluno
+- Editar aluno
+- Cadastrar novo aluno
+- Lazy loading
+
+## Tecnologias
+
+- [Angular](https://angular.io/)
+- [Node](https://nodejs.org/en/)
+
+## Links utilizados em aula
+
+- [Angular CLI](https://angular.io/cli)
+- [NG Bootstrap](https://ng-bootstrap.github.io/#/home)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Comandos utilizados
+- ng new application-name --routing --skip-tests
+- ng generate component|directive|pipe|service|class|module.
