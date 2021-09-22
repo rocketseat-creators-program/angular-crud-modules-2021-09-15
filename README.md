@@ -19,11 +19,20 @@ Ao final da aula, teremos um WEB APP capaz de executar todas as operações de u
 - [Angular](https://angular.io/)
 - [Node](https://nodejs.org/en/)
 
-## Links utilizados em aula
+## Links úteis
 
 - [Angular CLI](https://angular.io/cli)
+    - [new](https://angular.io/cli/new)
+    - [generate](https://angular.io/cli/generate)
 - [NG Bootstrap](https://ng-bootstrap.github.io/#/home)
 - [Font Awesome](https://fontawesome.com/)
+
+## Ambiente, recursos e requisitos necessários
+
+- Node 14.17.5 (LTS);
+- Seu editor de código de preferência (No meu caso, Visual Studio Code);
+- Familiaridade com HTML, CSS e JavaScript;
+- Vontade de aprender :D
 
 ## Testando a aplicação
 - Clone o repositório para a sua máquina
