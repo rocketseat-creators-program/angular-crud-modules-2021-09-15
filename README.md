@@ -34,6 +34,10 @@ Ao final da aula, teremos um WEB APP capaz de executar todas as operações de u
 - Familiaridade com HTML, CSS e JavaScript;
 - Vontade de aprender :D
 
+## Comandos utilizados
+- ng new application-name --routing --skip-tests
+- ng generate component|directive|pipe|service|class|module.
+
 ## Testando a aplicação
 - Clone o repositório para a sua máquina
 - Abra um terminal na pasta principal da aplicação
@@ -47,6 +51,20 @@ Ao final da aula, teremos um WEB APP capaz de executar todas as operações de u
     ```
 - Abra o seu browser na seguinte URL: http://localhost:4200
 
-## Comandos utilizados
-- ng new application-name --routing --skip-tests
-- ng generate component|directive|pipe|service|class|module.
+## Configuração
+
+### Ícones do Font Awesome
+Caso você esteja desenvolvendo sua própria aplicação para estudo, após a instalação do fontawesome ```npm install --save @fortawesome/fontawesome-free```, é necessário realizar o apontamento para os arquivos .css e .js dentro do arquivo **angular.json**.
+```
+"architect": {
+    "build": {
+        ...
+        "styles": [
+            "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+        ],
+        "scripts": [
+            "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+        ]
+    },
+    ...
+```
